@@ -1,0 +1,26 @@
+Name:                Janah Vitalicio
+Date of completion:  Sept. 18, 2019
+
+Reflection
+The difference between internal and external linkage is their scope. 
+In my String.cpp file, I declared a static variable for the counter. 
+This variable is only visible to my String.cpp translation unit 
+(source code) because I put the keyword ‘static’ to force it to be 
+accessible only in String.cpp making it an internal linkage. On the 
+other hand, external linkage is my unsigned int variable for storing 
+the length of the string, and I used the keyword ‘extern’ to make it 
+so. This variable is accessible throughout the entire program. It is 
+essentially a variable where any functions or modules/translation 
+unit can use and manipulate it.
+
+A ‘static’ variable is basically a class variable. Its lifetime is 
+dependent on the lifetime of the class definition itself. This 
+variable can be accessed only by the instances of the class. As I 
+said previously, static variable is useful for making the counter 
+have an internal linkage.
+
+In upgrading my String class, I had to dynamically allocate memory 
+for the array that holds the string. I added a constructor, copy 
+constructor, copy assignment operator, and a destructor. The copy 
+constructor is  for copying from the source to the newly allocated 
+memory.

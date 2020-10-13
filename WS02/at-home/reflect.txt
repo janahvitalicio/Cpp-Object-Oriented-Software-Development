@@ -1,0 +1,9 @@
+Name:                Janah Vitalicio
+Date of completion:  Sept. 23, 2019
+Description:         OOP345-NAAL: Workshop 2 (Week 3)
+
+Reflection
+Move operators are faster and more efficient than copy operators because 
+they do not have to allocate memory nor copy from temporary memory. This 
+method reduces the execution time significantly compared to copy operators.
+

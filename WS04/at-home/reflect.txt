@@ -1,0 +1,18 @@
+Name:                Janah Gabrielle Vitalicio
+Seneca Student ID:   151245172
+Seneca Email:        jgvitalicio@myseneca.ca
+Date of completion:  Oct. 07, 2019
+
+Reflection
+The difference between the implementations of a composition and an aggregation is that composition 
+has a stronger coupling between its classes than aggregation. Composition implements complete 
+ownership between a composer object and a component object. Aggregation encourages the concept of 
+“using” object between classes.
+
+Composition needs to have move and copy functions to manage the resource, hence the Restaurant 
+module. Aggregation does not manage the creation or destruction of the objects passed in the 
+ConfirmationSender module therefore it does not need some of the constructors.
+
+Quiz 4 Reflection
+1. For this lambda expression: [] () {} Tell me what each pair of brackets do? (3)
+[] -> capture list

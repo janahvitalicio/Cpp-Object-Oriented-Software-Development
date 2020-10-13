@@ -1,0 +1,18 @@
+Name:                Janah Gabrielle Vitalicio
+Date of completion:  Sept. 30, 2019
+
+Reflection
+The reason for specializing the sum() member function is to make sure that the strings 
+are properly concatenated because the plus (+) operator will assume that the value passed 
+will be integers only.
+
+The reason for specializing the initial value for a summation is to make sure that the 
+initial value has a safe empty value. If this was omitted, the program could produce 
+semantic errors.
+
+The reason for defining the class variable outside the class definition is to prevent 
+multiple-definition errors. A static class variable should only be defined once in the 
+whole program. If it’s defined inside a class that is inside a header file, which is 
+usually “included” in multiple source files, it would cause linker errors (multiple 
+definition error).
+

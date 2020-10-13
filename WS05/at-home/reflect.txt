@@ -1,0 +1,22 @@
+Name:                Janah Vitalicio
+Date of completion:  October 17, 2019
+
+Reflection
+Lambda functions are useful when it's only used once and does not need complex
+algorithm. Functors are the go-to if the function is to be repeated and if the 
+algorithm is more complicated.
+
+I would output an error message, and force the program to stop. Comparing the 
+two solution, generating an exception is better then manually outputting error
+message, and stopping the program.
+
+In order not to duplicate the logic, I would use a templated class that 
+encourages polymorphism.
+
+The compiler will automatically generate a default constructor if I did not have
+the custom constructor. But because custom constructors were defined in the 
+program, the compiler did not generate it automatically, and I had to create it
+manually. Default constructors are needed because class members have to be
+initialize at the start of the program. (We don't want the compiler to initialize
+the class members on its own simply because we don't know what data is going to be
+stored.)
