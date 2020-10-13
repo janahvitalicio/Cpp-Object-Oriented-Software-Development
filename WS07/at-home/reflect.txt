@@ -1,0 +1,18 @@
+Name:                Janah Vitalicio
+Date of completion:  November 11, 2019
+
+OOP345 Workshop 7
+
+Reflection
+
+std::for_each() - I used this function because it allowed me to write lambda
+                  expressions efficiently. 
+
+std::sort() - This function was very easy to use and useful for sorting. It's
+              more efficient than doing a manual sort.
+
+The advantages of using STL algorithms vs. implementing the functionality
+by myself using loops is efficiency, readability, and it's a time saver.
+
+I would redesign the function by validating the received parameter first,
+and throw an error if it's invalid.

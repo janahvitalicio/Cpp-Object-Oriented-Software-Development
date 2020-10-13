@@ -1,0 +1,16 @@
+Name:                Janah Vitalicio
+Date of completion:  November 4, 2019
+
+OOP345 Workshop 6
+
+Reflection
+
+Although not required, using stringstream gave me a little bit of struggle
+in figuring out how to properly use it. But when I got the hang of it, it was
+very useful in my createInstance function.
+
+We need to deallocate the dynamically allocated memory in the vector
+because an iterator is an object that points to an element in the sequence.
+
+Vector of Object could have been used in this workshop by using copy
+constructor and assignment operators to copy and store the vehicles.

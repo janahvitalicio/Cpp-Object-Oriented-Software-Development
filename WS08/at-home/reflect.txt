@@ -1,0 +1,14 @@
+Name:                Janah Vitalicio
+Date of completion:  November 18, 2019
+
+Reflection
+The advantage that smart pointer syntax provides is that it can still be
+treated as a raw pointer. In both of my += operator, I was able to dereference
+my raw and smart pointer in the same way; using "*".
+
+The difference between raw and smart pointer syntax in my solution can be
+noticeable in my mergeRaw() functions. When allocating a dynamic memory of product,
+to my raw pointer, I used an equal, "=", symbol. But I used parentheses, "()", when
+allocating dynamic memory to my smart pointer. I also did not have to delete my
+smart pointer compared to my raw pointer because smart pointers take care of 
+their own destruction.

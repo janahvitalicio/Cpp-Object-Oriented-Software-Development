@@ -1,0 +1,17 @@
+Name:                Janah Vitalicio
+Date of completion:  December 1, 2019
+
+OOP345 Reflection
+
+Understanding Milestone 3 was the most confusing for me,
+but with the help of my professor and peers I was able to grasp
+the purpose of Task and LineManager classes.
+
+I became familiar with using deque through this milestone.
+I was confused at first with front()/back()/pop_front()/pop_back,
+and about which one to use for certain functions,but I understood
+that it all depends on the objects that you're manipulating, and how
+you want them to be stacked, so it all worked out in the end.
+
+As I expected, OOP345 is harder than OOP244 for me, but I'm glad to 
+have learned and enchanced my C++/programming skills in this class.
